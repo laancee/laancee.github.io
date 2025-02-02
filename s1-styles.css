@@ -1,0 +1,99 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .main-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 80%;
+    height: 100%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    margin-right: 20px; /* Adds space between the button and resume */
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #resume {
+    width: 70%;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    position: relative;
+    border: 3px solid black; 
+  }
+  
+  
+  .personal-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .info h1 {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .info p {
+    margin: 5px 0;
+    color: black;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: black;
+  }
+  
+  ul {
+    padding-left: 20px;
+    list-style-type: none;
+  }
+  
+  ul li {
+    color: black;
+  }
+  
+  section {
+    margin-top: 20px;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: 1px solid black;
+  }
+  
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 2px solid black;
+  }
